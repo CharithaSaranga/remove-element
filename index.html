@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Remove Element App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="number"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Remove Element App</h2>
+    <label for="nums">Enter comma-separated numbers:</label>
+    <input type="text" id="nums" placeholder="e.g., 3, 2, 2, 3">
+    <label for="val">Value to remove:</label>
+    <input type="number" id="val" placeholder="Enter a number">
+    <button onclick="removeElement()">Remove</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="/app.js">
+
+  </script>
+</body>
+</html>
